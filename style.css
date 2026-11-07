@@ -280,3 +280,50 @@ h3{
     margin-left: 200px;
     margin-bottom: 100px;
 }
+@media (max-width: 600px){
+    .nav-links li{
+        white-space: normal;
+    }
+    .nav-links a{
+        margin-left: 10px;
+    }
+    .first-heading,
+    .second-heading,
+    .first-line,
+    .third-section,
+    .inquiry,
+    .second-line,
+    .fifth-section,
+    .fifth-heading,
+    .fifth-paragraph,
+    h3,
+    .fourth-section{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .first-heading{
+        font-size: 34px;
+    }
+    .second-heading{
+        font-size: 20px;
+    }
+    .third-heading,
+    .fifth-section,
+    .fourth-heading{
+        font-size: 26px;
+    }
+    .third-section,
+    .third-subheading,
+    .inquiry,
+    .fifth-heading,
+    .fifth-paragraph,
+    h3{
+        font-size: 18px;
+    }
+    .second-btns{
+        margin-left: 20px;
+    }
+    .more{
+        margin-left: 20px;
+    }
+}
